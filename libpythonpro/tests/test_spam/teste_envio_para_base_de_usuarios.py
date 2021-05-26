@@ -1,7 +1,6 @@
 from unittest.mock import Mock
 import pytest
 from libpythonpro.spam.main import EnviadorDeSpam
-from libpythonpro.spam.enviador_de_email import Enviador
 from libpythonpro.spam.modelos import Usuario
 
 
@@ -45,4 +44,4 @@ def test_parametros_de_spam(sessao):
         'renzo@python.pro.br',
         'Curso Python Pro',
         'Confira os módulos fantásticos'
-)
+    )
